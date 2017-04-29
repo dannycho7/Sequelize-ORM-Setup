@@ -1,0 +1,29 @@
+{
+  "name": "Sequelize_ORM_Setup",
+  "version": "1.0.0",
+  "description": "A basic setup using PSQL Sequelize on an express web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannycho7/Sequelize-ORM-Setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dannycho7/Sequelize-ORM-Setup/issues"
+  },
+  "homepage": "https://github.com/dannycho7/Sequelize-ORM-Setup#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0"
+  }
+}
